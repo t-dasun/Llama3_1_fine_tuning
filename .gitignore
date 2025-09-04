@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.env
+.env*
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+
+# Model outputs and checkpoints
+outputs/
+lora_model/
+unsloth_compiled_cache/
+*.safetensors
+*.pt
+*.bin
+*.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Others
+*.tmp
+*.cache
+*.bak
+*.swp
