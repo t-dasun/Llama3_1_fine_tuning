@@ -5,9 +5,9 @@ This guide will walk you through fine-tuning the Llama 3.1 8B model on a specifi
 ## Prerequisites
 
 * You have already completed the steps in the previous guide.
-* Your virtual environment (`llama-env`) is activated. If not, run:
+* Your virtual environment (`ai_test`) is activated. If not, run:
     ```bash
-    source ~/venvs/llama-env/bin/activate
+    source ~/venvs/ai_test/bin/activate
     ```
 * You have the base libraries (`unsloth`, `torch`, `transformers`) installed.
 
@@ -140,7 +140,7 @@ print("Model saved to 'lora_model' directory.")
 
 Now, execute the script from your terminal. This process will take some time as the model trains.
 
-1.  Make sure your `(llama-env)` virtual environment is active.
+1.  Make sure your `(ai_test)` virtual environment is active.
 2.  Run the script:
     ```bash
     python3 finetune.py
